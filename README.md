@@ -1,90 +1,122 @@
-# 👼 angel-tech-apps: A Tecnologia Encontra o Esotérico
+# 👼 angel-tech-apps: La tecnología se encuentra con lo esotérico
 
-> **Aplicações digitais que decodificam e interagem com sistemas simbólicos, oraculares e esotéricos. Ferramentas para astrologia, gematria, Enoquiano, oráculos e arte generativa de sigilos.**
+> **Aplicaciones digitales que decodifican e interactúan con sistemas simbólicos, oraculares y esotéricos. Herramientas para astrología, gematría, enoquiano, oráculos y arte generativo de sigilos.**
 
-Bem-vindo ao `angel-tech-apps`\! Este repositório é um espaço dedicado à exploração da fascinante interseção entre o desenvolvimento de software e a aplicação de sistemas esotéricos, simbólicos e metafísicos. Nosso objetivo é criar ferramentas digitais que ajudem na pesquisa, análise, geração e interação com estes sistemas complexos.
-
----
-
-## ✨ Essência do Projeto
-
-Nossa essência reside na crença de que a tecnologia pode ser uma lente poderosa para compreender e interagir com o conhecimento simbólico. Definimo-nos por:
-
-1.  **Decodificação Algorítmica:** Traduzir sistemas complexos de símbolos, números e correspondências em algoritmos e estruturas de dados computáveis.
-2.  **Ferramentas de Exploração:** Desenvolver aplicações que permitam aos usuários explorar, calcular e gerar conteúdo dentro desses frameworks simbólicos.
-3.  **Pontes entre Mundos:** Criar interfaces digitais que sirvam como janelas para sistemas de conhecimento que, tradicionalmente, são acessados por métodos mais analógicos.
-4.  **Arte Generativa Simbólica:** Explorar a geração procedural de elementos visuais e textuais (como sigilos e escrita asemic) baseada em princípios esotéricos.
+¡Bienvenidos a `angel-tech-apps`! Este repositorio es un espacio dedicado a explorar la fascinante intersección entre el desarrollo de software y la aplicación de sistemas esotéricos, simbólicos y metafísicos. Nuestro objetivo es crear herramientas digitales que faciliten la investigación, el análisis, la generación y la interacción con estos complejos sistemas.
 
 ---
 
-## 🗺️ Estrutura Detalhada do Repositório
+## ✨ Esencia del Proyecto
 
-O conteúdo é organizado por categorias de sistemas esotéricos ou pelo tipo de ferramenta.
+Nuestra esencia radica en la creencia de que la tecnología puede ser una poderosa herramienta para comprender e interactuar con el conocimiento simbólico. Nos definimos por:
+
+1. **Decodificación Algorítmica:** Traducir sistemas complejos de símbolos, números y correspondencias en algoritmos computables y estructuras de datos.
+
+2. **Herramientas de exploración:** Desarrollar aplicaciones que permitan a los usuarios explorar, calcular y generar contenido dentro de estos marcos simbólicos.
+
+3. **Puentes entre mundos:** Crear interfaces digitales que sirvan como ventanas a sistemas de conocimiento a los que tradicionalmente se accede mediante métodos más analógicos.
+
+4. **Arte generativo simbólico:** Explorar la generación procedimental de elementos visuales y textuales (como sigilos y escritura asémica) basada en principios esotéricos.
+
+---
+
+## 🗺️ Estructura detallada del repositorio
+
+El contenido está organizado por categorías de sistemas esotéricos o por tipo de herramienta.
 
 <br>
 
-* ### `00-Foundations-and-Concepts/`
-    > Documentação sobre os conceitos subjacentes, teorias e metodologias para a implementação digital.
-    >
-    * **`00.1-Introduction-to-Symbolic-Systems/`** (`README.md` sobre o que são, como são usados, base teórica)
-    * **`00.2-Algorithmic-Encoding-Principles/`** (`README.md` sobre como representar símbolos, números e relações em código)
-    * **`00.3-Generating-Patterns-and-Randomness/`** (`README.md` sobre geradores de números pseudo-aleatórios, geração procedural)
+* ### `00-Fundamentos-y-Conceptos/`
 
-* ### `01-Astrology-and-Cosmology/`
-    > Aplicações relacionadas a mapas astrais, trânsitos, progressões e sistemas cosmológicos.
-    >
-    * **`astro-chart/`** (Ex: Cálculo e visualização de mapas astrológicos, posições planetárias)
-    * **`celestial-events-tracker/`** (Ex: Aplicação para monitorar trânsitos planetários significativos)
+> Documentación sobre los conceptos, teorías y metodologías subyacentes para la implementación digital.
 
-* ### `02-Numerology-and-Gematria/`
-    > Ferramentas para cálculos numerológicos e interpretações textuais.
-    >
-    * **`gematria-calc/`** (Ex: Calculadora de valores gemátricos em diferentes cifragem, análise de textos)
-    * **`numerology-analyzer/`** (Ex: Análise de números pessoais, caminhos de vida)
+> * **`00.1-Introducción a los sistemas simbólicos/`** (`README.md` sobre qué son, cómo se usan y su fundamento teórico)
 
-* ### `03-Oracular-and-Divinatory-Systems/`
-    > Implementações digitais de oráculos e métodos divinatórios.
-    >
-    * **`oracle-systems/`** (Ex: Framework para construção de oráculos digitais, exemplos com I Ching, Tarot)
-    * **`orphic-dices/`** (Ex: Simulação de jogadas de dados oraculares com interpretação)
+* **`00.2-Principios de codificación algorítmica/`** (`README.md` sobre cómo representar símbolos, números y relaciones en código)
 
-* ### `04-Sigils-and-Symbol-Generation/`
-    > Ferramentas para a criação e manipulação de símbolos e escrita simbólica.
-    >
-    * **`sigil-generator/`** (Ex: Aplicação para gerar sigilos baseados em frases ou intenções)
-    * **`asemic-writer/`** (Ex: Ferramenta para gerar padrões de "escrita asemic" ou scripts mágicos)
-    * **`enochian-translator/`** (Ex: Tradutor/encoder para a linguagem Enoquiana)
+* **`00.3-Generación de patrones y aleatoriedad/`** (`README.md` sobre generadores de números pseudoaleatorios y generación procedimental)
 
-* ### `05-Interfaces-and-Deployment/`
-    > Como essas aplicações são apresentadas e utilizadas (Web, Mobile, Desktop).
-    >
-    * **`web-frontends/`** (Ex: Exemplos de front-ends para as ferramentas com React, Vue, Svelte)
-    * **`mobile-apps/`** (Ex: Esboços ou protótipos de apps móveis usando Flutter, React Native)
-    * **`api-backends/`** (Ex: APIs para os cálculos complexos em Python/FastAPI)
+* ### `01-Astrología y cosmología/`
+
+> Aplicaciones relacionadas con cartas astrológicas, tránsitos, progresiones y sistemas cosmológicos.
+
+>
+
+* **`astro-chart/`** (Ej.: Cálculo y visualización de cartas astrales y posiciones planetarias)
+
+* **`celestial-events-tracker/`** (Ej.: Aplicación para monitorear tránsitos planetarios significativos)
+
+* ### `02-Numerología-y-Gematría/`
+
+> Herramientas para cálculos numerológicos e interpretaciones de textos.
+
+>
+* **`gematria-calc/`** (Ej.: Calculadora de valores gemátricos en diferentes cifrados, análisis de texto)
+
+* **`numerology-analyzer/`** (Ej.: Análisis de números personales y caminos de vida)
+
+* ### `03-Sistemas-Oráculos-y-Adivinatorios/`
+
+> Implementaciones digitales de oráculos y métodos adivinatorios.
+
+>
+
+* **`oráculos-sistemas/`** (Ej.: Marco de trabajo para la creación de oráculos digitales; ejemplos con el I Ching y el Tarot)
+
+* **`dados-orfos/`** (Ej.: Simulación de tiradas de dados oraculares con interpretación)
+
+* ### `04-Generación-de-símbolos-y-sigilos/`
+
+> Herramientas para la creación y manipulación de símbolos y escritura simbólica.
+
+>
+* **`generador-de-sigilos/`** (Ej.: Aplicación para generar sigilos basados ​​en frases o intenciones)
+
+* **`escritor-asémico/`** (Ej.: Herramienta para generar patrones de escritura asémica o escrituras mágicas)
+
+* **`traductor-enoquiano/`** (Ej.: Traductor/codificador para el idioma enoquiano)
+
+* ### `05-Interfaces-y-Despliegue/`
+
+> Presentación y uso de estas aplicaciones (web, móvil, escritorio).
+
+>
+
+* **`Interfaces web/`** (Ej.: Ejemplos de interfaces para herramientas con React, Vue, Svelte)
+
+* **`Aplicaciones móviles/`** (Ej.: Bocetos o prototipos de aplicaciones móviles con Flutter, React Native)
+
+* **`Backends de API/`** (Ej.: API para cálculos complejos en Python/FastAPI)
 
 ---
 
-## 🛠️ Tecnologias Comuns
+## 🛠️ Tecnologías comunes
 
-* **Linguagens:** `Python`, `JavaScript`, `TypeScript`, `C#`
-* **Frameworks Web:** `FastAPI`, `Flask`, `Django`, `React`, `Vue`, `Svelte`
-* **Mobile:** `Flutter`, `React Native`
-* **Geração Gráfica:** `Pillow`, `OpenCV`, `Three.js`, `D3.js`, `Canvas API`
-* **Cálculo e Simulação:** Bibliotecas de matemática e probabilidade
+* **Lenguajes:** `Python`, `JavaScript`, `TypeScript`, `C#`
 
----
+* **Frameworks web:** `FastAPI`, `Flask`, `Django`, `React`, `Vue`, `Svelte`
 
-## ⚙️ Como Contribuir
+* **Móvil:** `Flutter`, `React Native`
 
-Este é um campo vasto e fascinante. Contribuições são bem-vindas, seja adicionando novas ferramentas, melhorando algoritmos existentes, ou fornecendo documentação sobre os sistemas simbólicos.
-
-1.  Faça um fork do repositório.
-2.  Crie uma branch para sua contribuição.
-3.  Adicione seu projeto ou faça suas alterações (com um `README.md` claro).
-4.  Abra um Pull Request descrevendo suas mudanças.
+* **Generación gráfica:** `Pillow`, `OpenCV`, `Three.js`, `D3.js` `API de Canvas`
+* **Cálculo y simulación:** Bibliotecas de matemáticas y probabilidad
 
 ---
 
-## 📜 Licença
+## ⚙️ Cómo contribuir
 
-Este repositório é distribuído sob a licença [MIT](LICENSE).
+Este es un campo vasto y fascinante. Se agradecen las contribuciones, ya sea añadiendo nuevas herramientas, mejorando algoritmos existentes o proporcionando documentación sobre sistemas simbólicos.
+
+1. Haz un fork del repositorio.
+
+2. Crea una rama para tu contribución.
+
+3. Añade tu proyecto o realiza tus cambios (con un archivo `README.md` claro).
+
+4. Abre una solicitud de extracción (Pull Request) describiendo tus cambios.
+
+--
+
+## 📜 Licencia
+
+Este repositorio se distribuye bajo la licencia [MIT](LICENSE).
